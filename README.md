@@ -1,6 +1,6 @@
 # QassemRPM 🚀
 
-![CI](https://github.com/Kasem-Adra/QassemRPM/actions/workflows/main.yml/badge.svg)
+![CI](https://github.com/QassemAi/QassemRPM/actions/workflows/main.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/python-3.11-blue.svg)
 ![Version](https://img.shields.io/badge/version-v0.1.0-green.svg)
@@ -76,7 +76,7 @@ qassemrpm validate examples/hello.spec
 ### Development & Contributing
 
 ```bash
-git clone https://github.com/Kasem-Adra/QassemRPM.git
+git clone https://github.com/QassemAi/QassemRPM.git
 cd QassemRPM
 python3 -m pip install -e .[dev]
 ```
