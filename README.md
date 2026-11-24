@@ -216,7 +216,7 @@ Copyright © 2026 Kasem Adra
 
 ### Reproduce the checks
 
-Use Python 3.9 or later. From the repository root, run:
+Use Python 3.10 or later. The current code uses slotted dataclasses, which require Python 3.10 even though the package metadata still lists Python 3.9. CI uses Python 3.11. From the repository root, run:
 
 ```sh
 python -m pip install -e . pytest
