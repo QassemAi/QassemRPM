@@ -212,3 +212,16 @@ Contributions are welcome!
 This project is licensed under the MIT License — 2026.
 
 Copyright © 2026 Kasem Adra
+
+
+### Reproduce the checks
+
+Use Python 3.9 or later. From the repository root, run:
+
+```sh
+python -m pip install -e . pytest
+python -m pytest -q
+qassemrpm info examples/hello.spec
+```
+
+The Python tests exercise spec parsing, documentation rendering and workspace creation. An actual RPM build additionally requires `rpmbuild` and the spec's system dependencies. Review third-party spec files before building them. The roadmap above describes planned work. The checked-in [MIT license](LICENSE) covers this repository's own implementation.
